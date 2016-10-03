@@ -1,0 +1,31 @@
+{
+    "project.type": "js",
+    "appaddrkey": "",
+    "createdVizVersion": "7.2.0",
+    "appversionkey": "1.0.0",
+    "mwportkey": "",
+    "defaulttheme": "defaultTheme",
+    "isNewAppWithRespectToAndroidPackageName": "",
+    "mwaddrkey": "",
+    "createdgaversion": "7.2.0",
+    "build": "debug",
+    "winmobileguidkey": "",
+    "isDpScaleFactor": "true",
+    "currentgaversion": "7.2.0",
+    "appidkey": "join4fun",
+    "apppackagekey": "",
+    "mwhttpsportkey": "",
+    "startupformkey": "",
+    "referenceWidth": "375",
+    "vendornamekey": "KonyLabs",
+    "konyVizVersion": "7.2.0",
+    "appnamekey": "join4fun",
+    "APPLICATION_THEME": "default",
+    "project_version": "sprint25",
+    "nativeContainerProperties": {
+        "isModified": true,
+        "isEnableJSContainer": false,
+        "isEnableJSContainerAndroid": false,
+        "isEnableJSContaineriOS": false
+    }
+}
