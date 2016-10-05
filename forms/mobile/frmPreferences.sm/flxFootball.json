@@ -36,9 +36,9 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "CopyFlexContainer015f3d5abced948",
+        "flxPrefFootballTitle",
         "flxFootballCheck",
-        "CopyImage0f4dd77fe5a8b48"
+        "imgPrefFootball"
     ],
     "clipbounds": true,
     "containerweight": 100,
@@ -50,7 +50,7 @@
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
     "onclick": "AS_FlexContainer_05a2d51454584faebd4c30c6f12622cb",
-    "parent": "CopyFlexContainer0a98f9e4c3cb94f",
+    "parent": "flxPrefLine3",
     "pf": "frmPreferences",
     "snapgridsize": 10,
     "snaptogrid": true,

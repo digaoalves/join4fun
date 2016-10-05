@@ -36,7 +36,7 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "CopyImage0303769db5cba4b"
+        "imgPrefRunCheck"
     ],
     "clipbounds": true,
     "containerweight": 100,

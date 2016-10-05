@@ -36,9 +36,9 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "CopyFlexContainer0cb382523084043",
+        "flxPrefTennisTitle",
         "flxTennisCheck",
-        "CopyImage047605f35348346"
+        "imgPrefTennis"
     ],
     "clipbounds": true,
     "containerweight": 100,
@@ -50,7 +50,7 @@
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
     "onclick": "AS_FlexContainer_21789595253746058dba193b3abc5133",
-    "parent": "CopyFlexContainer0c719adaefc054d",
+    "parent": "flxPrefLine2",
     "pf": "frmPreferences",
     "snapgridsize": 10,
     "snaptogrid": true,

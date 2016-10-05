@@ -5,6 +5,10 @@
         "type": "string",
         "value": "100%"
     },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
     "_margin_": [
         0,
         0,
@@ -19,10 +23,10 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s3d6f2b479b54c4294bbd3f1714ccfea",
+    "_skin_": "sabacc0e5a2c4388b342276aefc6a91c",
     "_top_": {
-        "type": "number",
-        "value": "0"
+        "type": "string",
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
@@ -35,6 +39,10 @@
         "type": "string",
         "value": "50%"
     },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
     "children": [],
     "clipbounds": true,
     "containerweight": 100,
@@ -42,7 +50,7 @@
     "id": "flxLayerSoccerSelected",
     "info": null,
     "isvisible": false,
-    "kuid": "b1e5fbc886514dfe918734e266af7d47",
+    "kuid": "165bb22455214f1da3b1c326771ea422",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
     "parent": "flxSoccer",
@@ -51,5 +59,5 @@
     "snaptogrid": true,
     "wType": "FlexContainer",
     "widgetalignment": 1,
-    "zindex": 2
+    "zindex": 3
 }

@@ -51,7 +51,7 @@
     "kuid": "ddb1b3c19ef249e9848b7d72b44e1de1",
     "name": "kony.ui.Button",
     "onclick": "AS_Button_5ead0be0808a4629a76da1e71023be82",
-    "parent": "FlexContainer01f47b56278fb41",
+    "parent": "flxPrefButton",
     "pf": "frmPreferences",
     "wType": "Button",
     "zindex": 1
