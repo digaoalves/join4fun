@@ -3,6 +3,9 @@ projectProperties.json
 
 projectProperties.json
 
+jssrc/
+
+<<<<<<< HEAD
 appSettings.xml
 
 lua_widget_m4_info.properties
@@ -36,3 +39,6 @@ context.properties
 context.properties
 
 defaults/defaults.properties
+=======
+resources/customlibs/sdkplugin.properties
+>>>>>>> origin/master
