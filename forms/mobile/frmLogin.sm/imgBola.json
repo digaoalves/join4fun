@@ -3,9 +3,13 @@
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_base64_": null,
+    "_bottom_": {
+        "type": "number",
+        "value": "10"
+    },
     "_height_": {
         "type": "string",
-        "value": "100dp"
+        "value": "230dp"
     },
     "_margin_": [
         0,
@@ -19,36 +23,33 @@
         0,
         0
     ],
-    "_skin_": "sacbe4c4a9c74b97bc8eccb5e855f891",
-    "_src_": "join4fun.png",
-    "_top_": {
+    "_right_": {
         "type": "string",
-        "value": "3%"
+        "value": "-15%"
     },
+    "_skin_": "sacbe4c4a9c74b97bc8eccb5e855f891",
+    "_src_": "bola.png",
     "_width_": {
         "type": "string",
-        "value": "90%"
+        "value": "230dp"
     },
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
     "containerweight": 100,
     "context": {
         "channel": "mobile",
         "formID": "frmLogin",
+        "platform": "iphone",
         "templateType": "forms",
         "topLevelBox": null
     },
-    "id": "Image0cf597456f0a449",
+    "id": "imgBola",
     "imagescalemode": 1,
     "info": null,
     "invokedProperty": "src",
     "isvisible": true,
-    "kuid": "15706836b154462f8ee5a118573ea8e2",
+    "kuid": "947f22a165864e058715ca90bb8da453",
     "name": "kony.ui.Image2",
-    "parent": "FlexContainer0ce55de5959b94f",
+    "parent": "flexMain",
     "pf": "frmLogin",
     "srcType": 1,
     "wType": "Image",
