@@ -11,6 +11,10 @@
   "font_style": "normal",
   "font_weight": "normal",
   "isDefaultSkin": true,
+<<<<<<< HEAD
   "kuid": "sd8475c631d34d2f940203970e2d0cc2",
+=======
+  "kuid": "s7aa27d35b27475793ab4cc0bd7ef0f8",
+>>>>>>> origin/master
   "wType": "Label"
 }
