@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "15%"
+        "value": "100%"
     },
     "_margin_": [
         0,
@@ -19,32 +19,30 @@
         0
     ],
     "_percent_": true,
-    "_right_": {
-        "type": "string",
-        "value": "2%"
-    },
-    "_skin_": "s559136a486e4bafaef72e81cc025252",
+    "_skin_": "s3d6f2b479b54c4294bbd3f1714ccfea",
     "_top_": {
-        "type": "string",
-        "value": "2%"
+        "type": "number",
+        "value": "0"
     },
     "_width_": {
         "type": "string",
-        "value": "15%"
+        "value": "100%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "children": [
-        "Image00539ffc08d7143"
-    ],
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "children": [],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxBasketBallCheck",
+    "id": "flxLayerBasketBallSelected",
     "info": null,
     "isvisible": false,
-    "kuid": "8ea5bcd74e7440eaa53fb3a88ed1c85b",
+    "kuid": "a10ba4c0341e44d2a645b178a46cc6c1",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
     "parent": "flxBasketball",
@@ -53,5 +51,5 @@
     "snaptogrid": true,
     "wType": "FlexContainer",
     "widgetalignment": 1,
-    "zindex": 3
+    "zindex": 2
 }

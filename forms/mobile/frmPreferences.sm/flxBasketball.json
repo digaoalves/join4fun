@@ -37,6 +37,7 @@
     "canUpdateUI": true,
     "children": [
         "FlexContainer045fbb78ea89948",
+        "flxLayerBasketBallSelected",
         "flxBasketBallCheck",
         "Image0a28b6467a7b044"
     ],

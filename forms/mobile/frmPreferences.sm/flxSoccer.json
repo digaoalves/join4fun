@@ -38,7 +38,8 @@
     "children": [
         "CopyFlexContainer00dd2a0f89f934d",
         "flxSoccerCheck",
-        "CopyImage0d5db8d3e65a143"
+        "CopyImage0d5db8d3e65a143",
+        "flxLayerSoccerSelected"
     ],
     "clipbounds": true,
     "containerweight": 100,

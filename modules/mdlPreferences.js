@@ -14,19 +14,25 @@ function checkUnchckPreference(objectSelected){
   
   if (objectSelected.id == "flxBasketball"){
     
-    	if (!frmPreferences.flxBasketBallCheck.isVisible)
+    	if (!frmPreferences.flxBasketBallCheck.isVisible){
           frmPreferences.flxBasketBallCheck.isVisible = true;
-        else
-          frmPreferences.flxBasketBallCheck.isVisible = false; 
+          frmPreferences.flxLayerBasketBallSelected.isVisible = true;
+        }else{
+          frmPreferences.flxBasketBallCheck.isVisible = false;
+          frmPreferences.flxLayerBasketBallSelected.isVisible = false;
+        }
     
         preference = "Basketball";
     
   } else if (objectSelected.id == "flxSoccer"){
     
-    	if (!frmPreferences.flxSoccerCheck.isVisible)
+    	if (!frmPreferences.flxSoccerCheck.isVisible){
           frmPreferences.flxSoccerCheck.isVisible = true;
-        else
+          frmPreferences.flxLayerSoccerSelected.isVisible = true;
+        }else{
           frmPreferences.flxSoccerCheck.isVisible = false; 
+          frmPreferences.flxLayerSoccerSelected.isVisible = false;
+        }
     
         preference = "Soccer";
           
