@@ -1,0 +1,455 @@
+{
+    "AS_Form_33354381ad444bcd9d2dd9219035a926": {
+        "id": "AS_Form_33354381ad444bcd9d2dd9219035a926",
+        "type": "ACTION_SEQUENCE",
+        "name": "AnimationLogin",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "41c5a22259c44bd3b03985d0047ed1bf"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "MOVE_ACTION____f6bcaa6aa8404784b987cb90a26b0cce",
+            "type": "MOVE_ACTION",
+            "itemType": "FORM",
+            "itemId": "frmLogin",
+            "widgetId": "imgBola",
+            "itemKUID": "41c5a22259c44bd3b03985d0047ed1bf",
+            "widgetKUID": "947f22a165864e058715ca90bb8da453",
+            "animationObject": {
+                "right": "-20%",
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                }
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "2500"
+            },
+            "start": "Immediately",
+            "parentAnimation": "ROTATE_ACTION_3D____9ade7cdf7d6e4f2b9c6726c99d083988",
+            "animationId": "MOVE_ACTION____f6bcaa6aa8404784b987cb90a26b0cce",
+            "displayAnimationId": "MOVE_ACTION____f6bcaa6aa8404784b987cb90a26b0cce",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null,
+            "widgetPath": "frmLogin.imgBola"
+        }, {
+            "id": "ROTATE_ACTION____df2a210c2fae4c7eb9d7a90b1eb73572",
+            "type": "ROTATE_ACTION",
+            "itemType": "FORM",
+            "itemId": "frmLogin",
+            "widgetId": "imgBola",
+            "itemKUID": "41c5a22259c44bd3b03985d0047ed1bf",
+            "widgetKUID": "947f22a165864e058715ca90bb8da453",
+            "animationObject": {
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                },
+                "rotate": "-160"
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": "1",
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "2500"
+            },
+            "start": "Immediately",
+            "parentAnimation": "MOVE_ACTION____f6bcaa6aa8404784b987cb90a26b0cce",
+            "animationId": "ROTATE_ACTION____df2a210c2fae4c7eb9d7a90b1eb73572",
+            "displayAnimationId": "ROTATE_ACTION____df2a210c2fae4c7eb9d7a90b1eb73572",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null,
+            "widgetPath": "frmLogin.imgBola"
+        }, {
+            "id": "MOVE_ACTION____e6f2ad975f6d490bb1bce78b9492d145",
+            "type": "MOVE_ACTION",
+            "itemType": "FORM",
+            "itemId": "frmLogin",
+            "widgetId": "imgBolaBask",
+            "itemKUID": "41c5a22259c44bd3b03985d0047ed1bf",
+            "widgetKUID": "ea7051bb11824308bb8b4001821b7d05",
+            "animationObject": {
+                "top": "60%",
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                }
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "1000"
+            },
+            "start": "Immediately",
+            "parentAnimation": "MOVE_ACTION____f6bcaa6aa8404784b987cb90a26b0cce",
+            "animationId": "MOVE_ACTION____e6f2ad975f6d490bb1bce78b9492d145",
+            "displayAnimationId": "MOVE_ACTION____e6f2ad975f6d490bb1bce78b9492d145",
+            "forkedPlatform": "all",
+            "parentId": "ROTATE_ACTION____df2a210c2fae4c7eb9d7a90b1eb73572",
+            "callbackType": "Callback",
+            "widgetPath": "frmLogin.imgBolaBask"
+        }, {
+            "id": "MOVE_ACTION____d4e985f6a801414ebe8f55f6bccd6cbb",
+            "type": "MOVE_ACTION",
+            "itemType": "FORM",
+            "itemId": "frmLogin",
+            "widgetId": "imgBolaTennis",
+            "itemKUID": "41c5a22259c44bd3b03985d0047ed1bf",
+            "widgetKUID": "8642a6bc29aa44f39b888bc9f036aa46",
+            "animationObject": {
+                "left": "170%",
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                }
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "800"
+            },
+            "start": "Immediately",
+            "parentAnimation": "MOVE_ACTION____f6bcaa6aa8404784b987cb90a26b0cce",
+            "animationId": "MOVE_ACTION____d4e985f6a801414ebe8f55f6bccd6cbb",
+            "displayAnimationId": "MOVE_ACTION____d4e985f6a801414ebe8f55f6bccd6cbb",
+            "forkedPlatform": "all",
+            "parentId": "MOVE_ACTION____e6f2ad975f6d490bb1bce78b9492d145",
+            "callbackType": "Callback",
+            "widgetPath": "frmLogin.imgBolaTennis"
+        }, {
+            "id": "MOVE_ACTION____5dac5b6f9ee14356b1c84750b3e700fd",
+            "type": "MOVE_ACTION",
+            "itemType": "FORM",
+            "itemId": "frmLogin",
+            "widgetId": "imgBolaTennis",
+            "itemKUID": "41c5a22259c44bd3b03985d0047ed1bf",
+            "widgetKUID": "8642a6bc29aa44f39b888bc9f036aa46",
+            "animationObject": {
+                "left": "-70%",
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                }
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "800"
+            },
+            "start": "Immediately",
+            "parentAnimation": "MOVE_ACTION____f6bcaa6aa8404784b987cb90a26b0cce",
+            "animationId": "MOVE_ACTION____5dac5b6f9ee14356b1c84750b3e700fd",
+            "displayAnimationId": "MOVE_ACTION____5dac5b6f9ee14356b1c84750b3e700fd",
+            "forkedPlatform": "all",
+            "parentId": "MOVE_ACTION____d4e985f6a801414ebe8f55f6bccd6cbb",
+            "callbackType": "Callback",
+            "widgetPath": "frmLogin.imgBolaTennis"
+        }, {
+            "id": "MOVE_ACTION____8b3194bc92204360a6b30811990eddb0",
+            "type": "MOVE_ACTION",
+            "itemType": "FORM",
+            "itemId": "frmLogin",
+            "widgetId": "imgBolaTennis",
+            "itemKUID": "41c5a22259c44bd3b03985d0047ed1bf",
+            "widgetKUID": "8642a6bc29aa44f39b888bc9f036aa46",
+            "animationObject": {
+                "left": "90%",
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                }
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "800"
+            },
+            "start": "Immediately",
+            "parentAnimation": "MOVE_ACTION____f6bcaa6aa8404784b987cb90a26b0cce",
+            "animationId": "MOVE_ACTION____8b3194bc92204360a6b30811990eddb0",
+            "displayAnimationId": "MOVE_ACTION____8b3194bc92204360a6b30811990eddb0",
+            "forkedPlatform": "all",
+            "parentId": "MOVE_ACTION____5dac5b6f9ee14356b1c84750b3e700fd",
+            "callbackType": "Callback",
+            "widgetPath": "frmLogin.imgBolaTennis"
+        }, {
+            "id": "MOVE_ACTION____188005118ea0485389e81271d64baba1",
+            "type": "MOVE_ACTION",
+            "itemType": "FORM",
+            "itemId": "frmLogin",
+            "widgetId": "imgBolaTennis",
+            "itemKUID": "41c5a22259c44bd3b03985d0047ed1bf",
+            "widgetKUID": "8642a6bc29aa44f39b888bc9f036aa46",
+            "animationObject": {
+                "left": "-7%",
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                }
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "800"
+            },
+            "start": "Immediately",
+            "parentAnimation": "MOVE_ACTION____f6bcaa6aa8404784b987cb90a26b0cce",
+            "animationId": "MOVE_ACTION____188005118ea0485389e81271d64baba1",
+            "displayAnimationId": "MOVE_ACTION____188005118ea0485389e81271d64baba1",
+            "forkedPlatform": "all",
+            "parentId": "MOVE_ACTION____8b3194bc92204360a6b30811990eddb0",
+            "callbackType": "Callback",
+            "widgetPath": "frmLogin.imgBolaTennis"
+        }, {
+            "id": "MOVE_ACTION____86b707bce7104a3889b58f71d9646f8e",
+            "type": "MOVE_ACTION",
+            "itemType": "FORM",
+            "itemId": "frmLogin",
+            "widgetId": "imgBolaTennis",
+            "itemKUID": "41c5a22259c44bd3b03985d0047ed1bf",
+            "widgetKUID": "8642a6bc29aa44f39b888bc9f036aa46",
+            "animationObject": {
+                "bottom": "-2%",
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                }
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "800"
+            },
+            "start": "Immediately",
+            "parentAnimation": "MOVE_ACTION____f6bcaa6aa8404784b987cb90a26b0cce",
+            "animationId": "MOVE_ACTION____86b707bce7104a3889b58f71d9646f8e",
+            "displayAnimationId": "MOVE_ACTION____86b707bce7104a3889b58f71d9646f8e",
+            "forkedPlatform": "all",
+            "parentId": "MOVE_ACTION____188005118ea0485389e81271d64baba1",
+            "callbackType": "Callback",
+            "widgetPath": "frmLogin.imgBolaTennis"
+        }, {
+            "id": "MOVE_ACTION____18ff90d98e0f497d8d31e04f23b6a542",
+            "type": "MOVE_ACTION",
+            "itemType": "FORM",
+            "itemId": "frmLogin",
+            "widgetId": "imgBolaTennis",
+            "itemKUID": "41c5a22259c44bd3b03985d0047ed1bf",
+            "widgetKUID": "8642a6bc29aa44f39b888bc9f036aa46",
+            "animationObject": {
+                "bottom": "4%",
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                }
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "600"
+            },
+            "start": "Immediately",
+            "parentAnimation": "MOVE_ACTION____f6bcaa6aa8404784b987cb90a26b0cce",
+            "animationId": "MOVE_ACTION____18ff90d98e0f497d8d31e04f23b6a542",
+            "displayAnimationId": "MOVE_ACTION____18ff90d98e0f497d8d31e04f23b6a542",
+            "forkedPlatform": "all",
+            "parentId": "MOVE_ACTION____86b707bce7104a3889b58f71d9646f8e",
+            "callbackType": "Callback",
+            "widgetPath": "frmLogin.imgBolaTennis"
+        }, {
+            "id": "MOVE_ACTION____a850b2e31bcc413f9e09fa24158a8d91",
+            "type": "MOVE_ACTION",
+            "itemType": "FORM",
+            "itemId": "frmLogin",
+            "widgetId": "imgBolaTennis",
+            "itemKUID": "41c5a22259c44bd3b03985d0047ed1bf",
+            "widgetKUID": "8642a6bc29aa44f39b888bc9f036aa46",
+            "animationObject": {
+                "bottom": "-2%",
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                }
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": 500
+            },
+            "start": "Immediately",
+            "parentAnimation": "MOVE_ACTION____f6bcaa6aa8404784b987cb90a26b0cce",
+            "animationId": "MOVE_ACTION____a850b2e31bcc413f9e09fa24158a8d91",
+            "displayAnimationId": "MOVE_ACTION____a850b2e31bcc413f9e09fa24158a8d91",
+            "forkedPlatform": "all",
+            "parentId": "MOVE_ACTION____18ff90d98e0f497d8d31e04f23b6a542",
+            "callbackType": "Callback",
+            "widgetPath": "frmLogin.imgBolaTennis"
+        }, {
+            "id": "MOVE_ACTION____0c1e4ea00a314d04b918786613356e38",
+            "type": "MOVE_ACTION",
+            "itemType": "FORM",
+            "itemId": "frmLogin",
+            "widgetId": "imgBolaBask",
+            "itemKUID": "41c5a22259c44bd3b03985d0047ed1bf",
+            "widgetKUID": "ea7051bb11824308bb8b4001821b7d05",
+            "animationObject": {
+                "top": "20%",
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                }
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "900"
+            },
+            "start": "Immediately",
+            "parentAnimation": "MOVE_ACTION____f6bcaa6aa8404784b987cb90a26b0cce",
+            "animationId": "MOVE_ACTION____0c1e4ea00a314d04b918786613356e38",
+            "displayAnimationId": "MOVE_ACTION____0c1e4ea00a314d04b918786613356e38",
+            "forkedPlatform": "all",
+            "parentId": "MOVE_ACTION____e6f2ad975f6d490bb1bce78b9492d145",
+            "callbackType": "Callback",
+            "widgetPath": "frmLogin.imgBolaBask"
+        }, {
+            "id": "MOVE_ACTION____82342655ca124516b94f5cb7a50371f6",
+            "type": "MOVE_ACTION",
+            "itemType": "FORM",
+            "itemId": "frmLogin",
+            "widgetId": "imgBolaBask",
+            "itemKUID": "41c5a22259c44bd3b03985d0047ed1bf",
+            "widgetKUID": "ea7051bb11824308bb8b4001821b7d05",
+            "animationObject": {
+                "top": "40%",
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                }
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "800"
+            },
+            "start": "Immediately",
+            "parentAnimation": "MOVE_ACTION____f6bcaa6aa8404784b987cb90a26b0cce",
+            "animationId": "MOVE_ACTION____82342655ca124516b94f5cb7a50371f6",
+            "displayAnimationId": "MOVE_ACTION____82342655ca124516b94f5cb7a50371f6",
+            "forkedPlatform": "all",
+            "parentId": "MOVE_ACTION____0c1e4ea00a314d04b918786613356e38",
+            "callbackType": "Callback",
+            "widgetPath": "frmLogin.imgBolaBask"
+        }, {
+            "id": "MOVE_ACTION____be9434f30ac3456bb7eb50ad6eaa1e81",
+            "type": "MOVE_ACTION",
+            "itemType": "FORM",
+            "itemId": "frmLogin",
+            "widgetId": "flxLogin",
+            "itemKUID": "41c5a22259c44bd3b03985d0047ed1bf",
+            "widgetKUID": "70551f3c692c42c194c5292f987acdf7",
+            "animationObject": {
+                "centerX": "50%",
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                }
+            },
+            "config": {
+                "delay": "200",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "1500"
+            },
+            "start": "Immediately",
+            "parentAnimation": "MOVE_ACTION____f6bcaa6aa8404784b987cb90a26b0cce",
+            "animationId": "MOVE_ACTION____be9434f30ac3456bb7eb50ad6eaa1e81",
+            "displayAnimationId": "MOVE_ACTION____be9434f30ac3456bb7eb50ad6eaa1e81",
+            "forkedPlatform": "all",
+            "parentId": "ROTATE_ACTION____df2a210c2fae4c7eb9d7a90b1eb73572",
+            "callbackType": "Callback",
+            "widgetPath": "frmLogin.flxLogin"
+        }, {
+            "id": "MOVE_ACTION____6ba11c876f06449694367c83adf6f5f1",
+            "type": "MOVE_ACTION",
+            "itemType": "FORM",
+            "itemId": "frmLogin",
+            "widgetId": "imgLogo",
+            "itemKUID": "41c5a22259c44bd3b03985d0047ed1bf",
+            "widgetKUID": "15706836b154462f8ee5a118573ea8e2",
+            "animationObject": {
+                "top": "3%",
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                }
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "1000"
+            },
+            "start": "Immediately",
+            "parentAnimation": "MOVE_ACTION____f6bcaa6aa8404784b987cb90a26b0cce",
+            "animationId": "MOVE_ACTION____6ba11c876f06449694367c83adf6f5f1",
+            "displayAnimationId": "MOVE_ACTION____6ba11c876f06449694367c83adf6f5f1",
+            "forkedPlatform": "all",
+            "parentId": "MOVE_ACTION____be9434f30ac3456bb7eb50ad6eaa1e81",
+            "callbackType": "Callback",
+            "widgetPath": "frmLogin.imgLogo"
+        }, {
+            "id": "TRANSFORM_ACTION_NEW____eb80ca7931234b42aff5829acbb1a2b7",
+            "type": "TRANSFORM_ACTION_NEW",
+            "itemType": "FORM",
+            "itemId": "frmLogin",
+            "widgetId": "imgLogo",
+            "itemKUID": "41c5a22259c44bd3b03985d0047ed1bf",
+            "widgetKUID": "15706836b154462f8ee5a118573ea8e2",
+            "animationObject": {
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                },
+                "width": "8dp",
+                "height": "8dp"
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "1000"
+            },
+            "start": "Immediately",
+            "parentAnimation": "MOVE_ACTION____f6bcaa6aa8404784b987cb90a26b0cce",
+            "animationId": "TRANSFORM_ACTION_NEW____eb80ca7931234b42aff5829acbb1a2b7",
+            "displayAnimationId": "TRANSFORM_ACTION_NEW____eb80ca7931234b42aff5829acbb1a2b7",
+            "forkedPlatform": "all",
+            "parentId": "MOVE_ACTION____be9434f30ac3456bb7eb50ad6eaa1e81",
+            "callbackType": "Callback",
+            "widgetPath": "frmLogin.imgLogo"
+        }]
+    }
+}

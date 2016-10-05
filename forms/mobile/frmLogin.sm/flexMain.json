@@ -36,13 +36,16 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "Image0cf597456f0a449",
-        "flxLogin"
+        "imgLogo",
+        "flxLogin",
+        "imgBola",
+        "imgBolaBask",
+        "imgBolaTennis"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "FlexContainer0ce55de5959b94f",
+    "id": "flexMain",
     "info": null,
     "isvisible": true,
     "kuid": "b6b1ae038a9347818ad7d19d6d6c6011",
