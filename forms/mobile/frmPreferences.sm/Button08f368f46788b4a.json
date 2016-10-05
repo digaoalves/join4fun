@@ -1,0 +1,58 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "60dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s7e83f21bac54b3096d71f940c99f431",
+    "_text_": "Ok,let's go!",
+    "_top_": {
+        "type": "string",
+        "value": "42dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "260dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s331f7b7fc4046c79edadf85db2b7517",
+    "id": "Button08f368f46788b4a",
+    "info": null,
+    "isvisible": true,
+    "kuid": "ddb1b3c19ef249e9848b7d72b44e1de1",
+    "name": "kony.ui.Button",
+    "onclick": "AS_Button_5ead0be0808a4629a76da1e71023be82",
+    "parent": "FlexContainer01f47b56278fb41",
+    "pf": "frmPreferences",
+    "wType": "Button",
+    "zindex": 1
+}

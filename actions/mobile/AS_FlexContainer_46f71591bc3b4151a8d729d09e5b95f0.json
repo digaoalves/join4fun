@@ -1,0 +1,30 @@
+{
+    "AS_FlexContainer_46f71591bc3b4151a8d729d09e5b95f0": {
+        "id": "AS_FlexContainer_46f71591bc3b4151a8d729d09e5b95f0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmPreferences",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d7caa80302294e028c8eef3dfed7e161"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___240ec69beb804f2f8b36e8005a74f05f",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "checkUnchckPreference",
+            "display": "checkUnchckPreference",
+            "inputparams": [{
+                "name": "objectSelected",
+                "value": " eventobject"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null
+        }]
+    }
+}
