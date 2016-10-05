@@ -36,7 +36,7 @@
         "value": "50%"
     },
     "children": [
-        "Button08f368f46788b4a"
+        "btnPrefOk"
     ],
     "clipbounds": true,
     "containerweight": 100,

@@ -22,6 +22,16 @@
             "parentId": null,
             "callbackType": null,
             "disabled": null
+        }, {
+            "id": "NAVIGATE_TO_FORM___ca349960bb084532b733e7d7a010ca83",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmHome",
+            "formKUID": "9bfe8f0a16164e269d14383a1d2df2ee",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": null,
+            "callbackType": null,
+            "enableMappingEditor": true
         }]
     }
 }
