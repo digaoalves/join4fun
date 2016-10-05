@@ -23,39 +23,33 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s5ef806f4e994454a42915a3ccb12a4a",
+    "_skin_": "sabacc0e5a2c4388b342276aefc6a91c",
     "_top_": {
         "type": "string",
         "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "50%"
+        "value": "100%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "children": [
-        "flxPrefRunTitle",
-        "flxRunCheck",
-        "imgPrefRun",
-        "flxLayerRunSelected"
-    ],
+    "children": [],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxRun",
+    "id": "flxLayerTennisSelected",
     "info": null,
-    "isvisible": true,
-    "kuid": "b65575ce0fd84c139325c94ebc15404e",
+    "isvisible": false,
+    "kuid": "46afe96c7f694dc3ac46f50c03a8480d",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "onclick": "AS_FlexContainer_bb7123efd4c34d8b9d24e96dfc246422",
-    "parent": "flxPrefLine3",
+    "parent": "flxTennis",
     "pf": "frmPreferences",
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",
     "widgetalignment": 1,
-    "zindex": 1
+    "zindex": 3
 }

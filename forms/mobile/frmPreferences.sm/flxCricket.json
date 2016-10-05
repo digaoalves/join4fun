@@ -38,7 +38,8 @@
     "children": [
         "flxPrefCricketTitle",
         "flxCricketCheck",
-        "imgPrefCricket"
+        "imgPrefCricket",
+        "flxLayerCricketSelected"
     ],
     "clipbounds": true,
     "containerweight": 100,

@@ -38,7 +38,8 @@
     "children": [
         "flxPrefFootballTitle",
         "flxFootballCheck",
-        "imgPrefFootball"
+        "imgPrefFootball",
+        "flxLayerFootballSelected"
     ],
     "clipbounds": true,
     "containerweight": 100,
