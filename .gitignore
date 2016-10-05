@@ -55,3 +55,17 @@ resources/customlibs/sdkplugin.properties
 >>>>>>> origin/master
 
 defaults/defaults.properties
+
+projectprop.xml
+
+projectProperties.json
+
+mBaas.properties
+
+mobileFabricServiceConfigMap.json
+
+widgetinfo.properties
+
+widgetinfo.properties
+
+widgetinfo.properties

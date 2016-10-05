@@ -1,0 +1,170 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "imgSportTimeline": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "soccer_t.png"
+            },
+            "lblDateTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "23:30"
+            },
+            "lblEventDescription": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "O jogo ocorrerá no campo de futebol 2 do condomínio Alphaconde"
+            },
+            "lblPlace": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Barueri"
+            },
+            "lblSport": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Soccer"
+            }
+        },
+        {
+            "imgSportTimeline": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "basketball_t.png"
+            },
+            "lblDateTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "18:00"
+            },
+            "lblEventDescription": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "A poartida ocorrerá na quadra principal do parque Vila Lobos"
+            },
+            "lblPlace": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "São Paulo"
+            },
+            "lblSport": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Basketball"
+            }
+        },
+        {
+            "imgSportTimeline": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "run_t.png"
+            },
+            "lblDateTime": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "07:00"
+            },
+            "lblEventDescription": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "O objetivo é realizarmos um circuito de 10km passando pelo Bradesco e acabando próximo à marginal"
+            },
+            "lblPlace": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Osasco"
+            },
+            "lblSport": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Run"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "02",
+    "focusedindex": null,
+    "focuseditem": null,
+    "generatedtemplate": "aba0cea57f294cca96c37b03110532b5",
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segHome",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "isvisible": true,
+    "kuid": "dd77e5143cc64d019b4213004fa2df5e",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flexLista",
+    "pf": "frmHome",
+    "retainselection": false,
+    "rowTemplateId": "aba0cea57f294cca96c37b03110532b5",
+    "rowcounter": 2,
+    "rowfocusskin": "s4560b5dd07945538ed8d8865a889bba",
+    "rowskin": "s8ae0e19ca6048658c5f1c6bf16cdefc",
+    "rowtemplate": "FBox0db7d6b4a300149",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s88136ba29b5485ead4a5d0e833129d4",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": null,
+    "selectionbehavior": "default",
+    "separatorrequired": true,
+    "separatorthickness": 10,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flexListaHeader": "flexListaHeader",
+        "flexListaMain": "flexListaMain",
+        "flexSportDetails": "flexSportDetails",
+        "flexSportSummary": "flexSportSummary",
+        "imgSportTimeline": "imgSportTimeline",
+        "lblDateTime": "lblDateTime",
+        "lblEventDescription": "lblEventDescription",
+        "lblPlace": "lblPlace",
+        "lblSport": "lblSport"
+    },
+    "zindex": 1
+}
