@@ -38,38 +38,46 @@ function checkUnchckPreference(objectSelected){
           
   } else if (objectSelected.id == "flxCricket"){
     
-    	if (!frmPreferences.flxCricketCheck.isVisible)
+    	if (!frmPreferences.flxCricketCheck.isVisible){
           frmPreferences.flxCricketCheck.isVisible = true;
-        else
+          frmPreferences.flxLayerCricketSelected.isVisible = true;
+        }else{
           frmPreferences.flxCricketCheck.isVisible = false; 
-
+          frmPreferences.flxLayerCricketSelected.isVisible = false;
+        }
 		preference = "Cricket";	        
           
   } else if (objectSelected.id == "flxTennis"){
     
-    	if (!frmPreferences.flxTennisCheck.isVisible)
+    	if (!frmPreferences.flxTennisCheck.isVisible){
           frmPreferences.flxTennisCheck.isVisible = true;
-        else
+          frmPreferences.flxLayerTennisSelected.isVisible = true;
+        }else{
           frmPreferences.flxTennisCheck.isVisible = false; 
-    
+          frmPreferences.flxLayerTennisSelected.isVisible = false;
+        }
         preference = "Tennis";
           
   } else if (objectSelected.id == "flxFootball"){
     
-    	if (!frmPreferences.flxFootballCheck.isVisible)
+    	if (!frmPreferences.flxFootballCheck.isVisible){
           frmPreferences.flxFootballCheck.isVisible = true;
-       	else
+          frmPreferences.flxLayerFootballSelected.isVisible = true;
+        }else{
           frmPreferences.flxFootballCheck.isVisible = false; 
-             
+          frmPreferences.flxLayerFootballSelected.isVisible = false;
+        }     
         preference = "Football";	
           
   } else if (objectSelected.id == "flxRun"){
     
-    	if (!frmPreferences.flxRunCheck.isVisible)
+    	if (!frmPreferences.flxRunCheck.isVisible){
           frmPreferences.flxRunCheck.isVisible = true;
-        else
+          frmPreferences.flxLayerRunSelected.isVisible = true;
+        }else{
           frmPreferences.flxRunCheck.isVisible = false; 
-    
+          frmPreferences.flxLayerRunSelected.isVisible = false;
+        }
          preference = "Run";	
 
   }  
